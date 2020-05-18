@@ -9,8 +9,8 @@ body {
 }
 
 header {
-  float: right;
-  margin-right: 50px;
+  position: absolute;
+  right: 20px;
 }
 ul {
   display: flex;
@@ -31,7 +31,8 @@ ol > li {
   margin-left: 20px;
 }
 .faq-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   padding: 50px;
 }
@@ -46,8 +47,10 @@ ol > li {
   display: grid;
 }
 .qestion {
+  color: aliceblue;
 }
 .answer {
+  color: rgb(204, 204, 204);
 }
 .semantic-title {
   margin-left: 100px;
@@ -94,6 +97,17 @@ footer {
   }
   .iframe-audio-container {
     display: inline-block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .semantics-video-container {
+    display: inline-block;
+  }
+  .iframe-audio-container {
+    display: inline-block;
+  }
+  .faq-container {
+    grid-template-columns: auto auto;
   }
 }
 html {
