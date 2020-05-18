@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML5 and CCS3</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/signup.html">Sign In</a></li>
+      </ul>
+    </header>
+    <div class="title-container">
+      <h2 class="main-title">HTML5 and CSS3 Features</h2>
+    </div>
+
+    <div class="page-info">
+      <h2>HTML 5 Semantic Tags</h2>
+      <h4 style="color: yellow;">
+        NOTE: Not all the HTML 5 and CSS 3 features are supported on all
+        browsers
+      </h4>
+    </div>
+    <h3 class="semantic-title">
+      Semantic elements don't inpact the document flow and have no styleistic
+      difference
+    </h3>
+    <div class="semantics-video-container">
+      <section class="semantic">
+        <article>
+          <b>Article:</b> The &lt;article&gt; element represents a sectio of
+          content that forms an independent part of a document, such as a blog
+          <br />
+          post, article, or other self-contained unit of information, that may
+          be linked to or included in some other content body.
+        </article>
+        <br />
+        <aside>
+          <b>Aside:</b> represents a section of the web page that encloses
+          content which is tangentially related to the content around it.
+        </aside>
+        <p class="add-margin-top">
+          <b>Header:</b> represents the header of a document or a section. A
+          header should contain title and heading information about the related
+          content.
+        </p>
+        <p class="add-margin-top">
+          <b>Footer:</b> represents the footer of a document or a section. A
+          footer typically contains information about the author of the
+          document, copyright information, links to related documents etc.
+        </p>
+      </section>
+      <section class="video-demo">
+        <h2>Video: Developer meme</h2>
+        <video src="./assets/meme.mp4" muted autoplay loop></video>
+      </section>
+    </div>
+    <section>
+      <h2 style="margin-left: 25px;">Formating</h2>
+
+      <ul>
+        <li><b>Bold</b></li>
+        <li><strong>Strong</strong></li>
+        <li><i>Italic</i></li>
+        <li><em>Emphasised</em></li>
+        <li><mark>Marked</mark></li>
+        <li><small>Small</small></li>
+        <li><del>Deleted</del></li>
+        <li><ins>Inserted</ins></li>
+        <li><sub>Subscript</sub></li>
+        <li><sup>Superscript</sup></li>
+      </ul>
+    </section>
+
+    <section class="audio-demo">
+      <h2>Audio Player</h2>
+      <h4>JavaScript Jabber podcast</h4>
+      <audio
+        style="margin-top: 20px;"
+        src="/assets/JSJ_433_Noam_Rosenthal.mp3"
+        controls
+      ></audio>
+    </section>
+    <section class="iframe-demo">
+      <h2>Iframe demo</h2>
+      <h4>
+        Embedded webpage
+      </h4>
+      <iframe
+        style="margin-top: 20px;"
+        src="https://devchat.tv/"
+        frameborder="0"
+        width="600"
+        height="500"
+      ></iframe>
+    </section>
+    <footer>
+      Copy right &copy;
+    </footer>
+  </body>
+</html>
