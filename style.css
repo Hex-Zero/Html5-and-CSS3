@@ -25,6 +25,30 @@ li {
 .semantic {
   margin: 50px;
 }
+ol > li {
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.faq-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.faq-box {
+  margin: 20px;
+  border: 2px solid rebeccapurple;
+  background-color: rgba(40, 13, 66, 0.781);
+  padding: 10px 20px;
+  width: 250px;
+  height: 200px;
+  display: grid;
+}
+.qestion {
+}
+.answer {
+}
 .semantic-title {
   margin-left: 100px;
 }
