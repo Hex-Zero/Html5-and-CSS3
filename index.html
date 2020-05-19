@@ -12,9 +12,7 @@
         <li><a href="./">Home</a></li>
         <li><a href="/faq.html">FAQ's</a></li>
         <li>
-          <a
-            href="https://github.com/Hex-Zero/Html5-and-CSS3/"
-            target="_blank"
+          <a href="https://github.com/Hex-Zero/Html5-and-CSS3/" target="_blank"
             >Code</a
           >
         </li>
@@ -104,9 +102,55 @@
           controls
         ></audio>
       </div>
+      <div class="table-demo">
+        <h3>Table</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Quarter</th>
+              <th>Total Sales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Q1</td>
+              <td>400£</td>
+            </tr>
+            <tr>
+              <td>Q2</td>
+              <td>200£</td>
+            </tr>
+            <tr>
+              <td>Q3</td>
+              <td>400£</td>
+            </tr>
+            <tr>
+              <td>Q4</td>
+              <td>300£</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <form action="index.html">
+        <fieldset>
+          <legend>Feddback Form:</legend>
+          <label for="firstName">Last name:</label><br />
+          <input id="firstName" type="text" name="firstName" />
+          <br />
+          <label for="lastName">Last name:</label><br />
+          <input id="lastName" type="text" name="lastName" />
+          <br />
+          <input type="radio" value="Yes!" checked />
+          <br />
+          On a scale of 0% being awful to 100% make a selection
+          <input type="range" min="1" max="100" value="50" />
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
     </div>
     <footer>
-      <h6>Copy right &copy; Hex Zero 2020</h3>
+      <h6>Copy right &copy; Hex Zero 2020</h6>
     </footer>
   </body>
 </html>
