@@ -76,6 +76,7 @@ video {
 footer {
   background-color: rebeccapurple;
   padding: 10px;
+  text-align: end;
 }
 .add-margin-top {
   margin-top: 20px;
